@@ -41,9 +41,9 @@ Các task chính Easy, Medium và Hard đã hoàn thành. Các checkpoint cũng 
 
 | Ảnh/vị trí | Hai cách hiểu có thể | Quy tắc/chứng cứ | Quyết định hoặc câu hỏi cho coach |
 |---|---|---|---|
-| Ảnh 1 – các ô tô nhỏ ở xa trên đường | Gộp các xe gần nhau thành một vùng hoặc tách từng xe riêng biệt | Các xe có kích thước nhỏ nhưng vẫn có thể nhận diện đường viền riêng | Ưu tiên tách từng xe thành instance riêng nếu có thể xác định được từng object. |
-| Ảnh 2 – xe chở ô tô ở giữa ảnh | Gán một mask cho xe vận chuyển hoặc tạo mask riêng cho từng ô tô trên xe | Nhiều ô tô nằm sát nhau và một phần bị che khuất | Cần xác nhận các ô tô đang được vận chuyển có cần được gán instance riêng không. |
-| Ảnh 3 – người đi bộ trước taxi và xe buýt | Gán mask riêng cho người đi bộ hoặc lấy cả phần bị che khuất phía sau | Người đi bộ đứng trước taxi và xe buýt, có sự chồng lấp giữa các object | Chỉ gán phần nhìn thấy của người đi bộ, không lấy phần thuộc về phương tiện phía sau. |
+| [Ảnh 1 – 000000350023.jpg](../../data/tiers/hard_panoptic/images/000000350023.jpg), các ô tô nhỏ ở xa trên đường | Gộp các xe gần nhau thành một vùng hoặc tách từng xe riêng biệt | Các xe có kích thước nhỏ nhưng vẫn có thể nhận diện đường viền riêng | Ưu tiên tách từng xe thành instance riêng nếu có thể xác định được từng object. |
+| [Ảnh 2 – 000000460147.jpg](../../data/tiers/hard_panoptic/images/000000460147.jpg), xe chở ô tô ở giữa ảnh | Gán một mask cho xe vận chuyển hoặc tạo mask riêng cho từng ô tô trên xe | Nhiều ô tô nằm sát nhau và một phần bị che khuất | Cần xác nhận các ô tô đang được vận chuyển có cần được gán instance riêng không. |
+| [Ảnh 3 – 000000373353.jpg](../../data/tiers/medium_instance/images/000000373353.jpg), người đi bộ trước taxi và xe buýt | Gán mask riêng cho người đi bộ hoặc lấy cả phần bị che khuất phía sau | Người đi bộ đứng trước taxi và xe buýt, có sự chồng lấp giữa các object | Chỉ gán phần nhìn thấy của người đi bộ, không lấy phần thuộc về phương tiện phía sau. |
 
 ## Kết luận
 
